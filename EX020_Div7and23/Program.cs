@@ -10,6 +10,8 @@ int a = Convert.ToInt32(Console.ReadLine()); // вводим число a
 int ost7 = a % 7;
 int ost23 = a % 23;
 
+//if (a % 7 == 0 && a % 23 == 0)  // так условие можно записать, чтобы не вносить доп. переменные
+
 if (ost7 == 0 && ost23 == 0)
 {
     Console.WriteLine("Кратно 7 и 23");
