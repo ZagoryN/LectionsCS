@@ -13,7 +13,7 @@ if (a == b*b || b == a*a)  // условие
 }
 else
 {
-    Console.WriteLine("нет"); //
+    Console.WriteLine("нет"); // вводится ответ
 }
 
 
