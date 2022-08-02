@@ -33,5 +33,8 @@ Random rand=new Random();
 for (int i = 0; i<arr.Length; i++)
 {
     arr[i] = new Random().Next(0,2);
+   // Console.Write(rand);
 }
-Console.Write(arr);
+
+//int[] arr = (1,2);
+Console.WriteLine(string.Join(", ", arr));
