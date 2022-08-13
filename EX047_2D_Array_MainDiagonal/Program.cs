@@ -45,8 +45,12 @@ void PrintMatrix(int[,] matrixx)
 
 PrintMatrix(Matrix);
 
+int minCount = n;
+if (m < n) minCount = Matrix.GetLength(0);
+else minCount = Matrix.GetLength(1);
+
 int sum = 0;
-for (int i = 0; i < Matrix.GetLength(0); i++)
+for (int i = 0; i < minCount; i++)
 {
     sum = sum + Matrix[i,i];
 }
